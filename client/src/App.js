@@ -3,6 +3,7 @@ import { BrowserRouter, Route} from "react-router-dom";
 import CreateRoom from "./routes/CreateRoom";
 import Room from "./routes/Room";
 import { Routes } from "react-router-dom";
+import InfoPage from './routes/InfoPage';
 import Chat from './routes/Chat';
 //import CallPage from "./routes/Callpage";
 
@@ -13,6 +14,7 @@ function App() {
       {/* <Switch> */}
       <Route path="/" element={<CreateRoom />} />
       <Route path="/room" element={<Room/>} />
+      <Route path='/info' element={<InfoPage />} />
       {/* <Route path='/chat' element={<Chat/>}/> */}
         {/* <Route exact path="/home">
           <HomePage />

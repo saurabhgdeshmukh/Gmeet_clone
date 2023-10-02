@@ -17,8 +17,10 @@
     "socket.io": "^4.6.2"
   },
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "cd ./client && npm install"
+
+    "start": "node server.js"
+   
+
   },
   "repository": {
     "type": "git",

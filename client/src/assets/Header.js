@@ -20,8 +20,8 @@ function Header(){
        
         <div className="header">
             <div className="logo">
-                <img className="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Google_Meet_text_logo_%282020%29.svg/1024px-Google_Meet_text_logo_%282020%29.svg.png" alt="" />
-                <span className="text"> Clone</span>
+                <img className="image" src="https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_2x_icon_124_40_292e71bcb52a56e2a9005164118f183b.png" alt="" />
+                <span className="text">Glone</span>
             </div>
             <div className="act-btn">
                 

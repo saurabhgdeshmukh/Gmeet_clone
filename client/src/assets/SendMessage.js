@@ -4,6 +4,7 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import 'firebase/firestore';
 
 import { userContext } from "../routes/Chat";
+import './SendMessage.css';
 
 const SendMessage = ({ scroll }) => {
   const [message, setMessage] = useState("");

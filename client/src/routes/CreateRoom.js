@@ -149,9 +149,11 @@ const CreateRoom = (props) => {
               </button>
             </div>
           ) : (
-            <button onClick={() => login()} className="btn">
-              Sign in with Google{" "}
-            </button>
+            <div className="action-btn">
+              <button onClick={() => login()} className="btn">
+                Sign in with Google{" "}
+              </button>
+            </div>
           )}
           {/* <input
             type="text"
@@ -162,7 +164,14 @@ const CreateRoom = (props) => {
 
           <hr />
           <div className="help-text">
-            <a href="">Learn more</a> about Google Meet
+            <a
+              onClick={() => {
+                navigate("/info");
+              }}
+            >
+              Learn more
+            </a>{" "}
+            about Us
           </div>
         </div>
         <div className="right-side">

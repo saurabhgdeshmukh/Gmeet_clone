@@ -32,13 +32,10 @@ function Chat () {
 
   return (
     <div className="App">
-      {user1?(
+      {user1 && (
         <userContext.Provider value={user1}>
-
         <ChatBox></ChatBox>
-        </userContext.Provider>):(
-        <div></div>
-      )}
+        </userContext.Provider>)}
     </div>
   );
 }

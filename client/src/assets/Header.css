@@ -17,11 +17,9 @@ justify-content: space-between;
   }
  
 .text{
-    padding-left: 3px;
-    padding-top:5px ;
-    font-size: 20px;
-    color: rgb(86, 83, 83);
-    font-weight: 500;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-bottom: 5px;
 }
 .act-btn{
     display: flex;

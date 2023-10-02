@@ -18,8 +18,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .input-block {
     margin-left: 20px;
@@ -69,18 +69,21 @@ input{
     color: white;
     outline: none;
     border-radius: 5px;
-    background-color: rgb(37, 94, 237);
-
+    background-color: rgb(204, 12, 214);
+    padding: 5px;
 }
 .btn:hover{
     transform: translateY(2px);
 }
 .bttn{
-    background-color: rgb(55, 81, 255);
-    color: rgb(242, 242, 245);
+    background-color: white;
+    color: blue;
     outline: none;
     border-radius:5px ;
     cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .bttn:hover{
 background-color:rgb(182, 12, 176) ;
